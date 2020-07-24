@@ -1,0 +1,103 @@
+.Vbody {
+    background-color: #130f1a;
+    background-size: 100% 100%;
+}
+
+
+
+.shadow {
+    position: fixed;
+    width: 6.6667rem;
+    top: 50%;
+    left: 50%;
+    margin-left: -3.3333rem;
+    background-color: #161617;
+    padding: 0.4rem 0.5333rem;
+    line-height: 0.6667rem;
+    font-size: 0.4267rem;
+    color: #ffffff;
+    text-align: center;
+    z-index: 999;
+}
+
+
+
+.header {
+    width: 100%;
+    background-color: #3E3B52;
+}
+.header .hint {
+    margin: 0 auto;
+    padding: 0.56rem 0.6rem;
+    background: url(../img/download_arrows.png) no-repeat 95% 15%;
+    background-size: 0.8667rem 0.6533rem;
+}
+.header .hint p {
+    position: relative;
+    text-align: center;
+    line-height: 0.64rem;
+    font-size: 0.4rem;
+    color: #B6A6BF;
+    display: flex;
+    justify-content: center;
+    padding: 0 0.9733rem;
+}
+
+
+
+.content {
+    width: 100%;
+    margin: 0 auto;
+}
+.logobox {
+    padding: 1.8rem 0 1.7333rem 0;
+}
+.content .logo {
+    width: 5.6533rem;
+    height: 5.0267rem;
+    background: url(../img/download_logo.png) no-repeat;
+    background-size: 100% 100%;
+    margin: 0 auto;
+}
+.content .information {
+    margin-bottom: 1.2267rem;
+}
+.content .information p  {
+    text-align: center;
+    font-size: 0.4rem;
+    line-height: 0.4533rem;
+    color: #84798B;
+    margin-bottom: 0.32rem;
+}
+.content .information p span {
+    font-size: 0.4rem;
+    line-height: 0.4533rem;
+    margin-right: 0.2667rem;
+}
+.content .code {
+    width: 3.04rem;
+    height: 3.04rem;
+    background-color: #84798B;
+    border-radius: 0.1067rem;
+    margin: 0 auto 0.64rem auto;
+    padding: 0.1333rem;
+}
+.content .code img {
+    width: 100%;
+    height: 100%;
+}
+.content .btn {
+    text-align: center;
+    padding-bottom: 1.3333rem;
+}
+.content .btn span {
+    width: 4.2667rem;
+    height: 1.1733rem;
+    line-height: 1.1733rem;
+    background: url(../img/download_btn.png) no-repeat;
+    background-size: 100% 100%;
+    font-size: 0.4267rem;
+    color: #ffffff;
+    display: inline-block;
+    cursor: pointer;
+}

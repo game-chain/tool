@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Game</title>
+    <meta name="Keywords" content="Game"/>
+    <meta name="Description" content="Game"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <meta name="apple-touch-fullscreen" content="yes"/>
+    <meta name="format-detection" content="telephone=no,email=no"/>
+    <meta name="apple-mobile-web-app-status-bar-style" content="blank"/>
+    <meta http-equiv="cache-control" content="no-cache"/>
+    <meta name="flexible" content="maximum-dpr=2"/>
+    <meta name="grid" content="modeName=750-12"/> 
+    <script type="text/javascript" src="../js/common/flexible.js?t=201910080000"></script>
+    <link rel="shortcut icon" href="../image/favicon.ico" />
+    <link rel="stylesheet" href="../css/reset.css?t=201910080000">
+    <link rel="stylesheet" href="../css/download.css?t=201910080000">
+</head>
+<body class="Vbody">
+<!-- 头部 start -->
+<div class="header" style="display: none;">
+    <div class="hint">
+        <p class="hintAndroid" style="display: none;">点击右上角按钮，然后在弹出的菜单中，点击在浏览器中打开，即可安装</p>
+        <p class="hintIos" style="display: none;">点击右上角按钮，然后在弹出的菜单中，点击在Safari中打开，即可安装</p>
+    </div>
+</div>
+<!-- 头部 end -->
+<!-- 主界面 start -->
+<div class="content">
+    <div class="logobox"><div class="logo"></div></div>
+    <div class="information">
+        <p><span id="versionNum">版本：</span><span id="fileSize">大小：</span></p>
+        <p id="createTime">更新于：</p>
+    </div>
+    <div class="code" id="download_canvas" style="display: none;"></div>
+    <div class="code" id="download_img"></div>
+    <div class="btn">
+        <span>点击下载</span>
+    </div>
+</div>
+<!-- 主界面 end -->
+<!-- 提示弹窗 start -->
+<div class="shadow" id="hintBox" style="display: none;"></div>
+<!-- 提示弹窗 end -->
+<script type="text/javascript" src="../js/common/jquery.min.js?t=201910080000"></script>
+<script type="text/javascript" src="../js/common/webkit1.0.js?t=201910080000"></script>
+<script type="text/javascript" src="../js/common/jquery.qrcode.min.js"></script>
+<script type="text/javascript" src="../js/common/common.js?t=201910080000"></script>
+<script type="text/javascript" src="../js/download.js?t=201910080000"></script>
+</body>
+</html>

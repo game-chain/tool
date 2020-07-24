@@ -1,0 +1,302 @@
+.wrapper {
+    width: 1400px;
+    margin: auto;
+}
+.wrapper .title {
+    margin: 0 auto 10px auto;
+    font-size: 40px;
+    color: #fff;
+}
+.wrapper .title_img {
+    width: 136px;
+    height: 28px;
+    background: url(../img/title_img.png) center center no-repeat;
+    background-size: 100% 100%;
+    margin: 0 auto 30px auto;
+}
+
+.pageHome .img {
+    width: 240px;
+    height: 240px;
+    background: url(../img/Home_img.png) center center no-repeat;
+    background-size: 100% 100%;
+    margin: 0 auto 40px auto;
+}
+.pageHome .txt {
+    width: 393px;
+    height: 62px;
+    background: url(../img/Home_txt.png) center center no-repeat;
+    background-size: 100% 100%;
+    margin: 0 auto 50px auto;
+}
+.pageHome .hint {
+    line-height: 45px;
+    font-size: 32px;
+    color: #FFFFFF;
+    margin: 0 auto;
+}
+
+.pageIntroduction .wrapper {
+    width: 800px;
+}
+.pageIntroduction .txt {
+    line-height: 40px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.pageTeam .recommend .recommend_box {
+    display: flex;
+    justify-content: center;
+}
+.pageTeam .txt {
+    line-height: 40px;
+    margin-left: 22%;
+    text-align: left;
+}
+.pageTeam .details {
+    width: 400px;
+    padding: 10px 24px;
+}
+.pageTeam .details .details_txt {
+    line-height: 27px;
+    margin-bottom: 10px;
+    text-align: left;
+    color: #e5e5e5;
+}
+.pageTeam .details .details_txt.name {
+    font-size: 22px;
+    color: #BF8B42;
+    font-weight: bold;
+}
+.pageTeam .details .details_txt.position {
+     font-size: 18px;
+     font-weight: bold;
+}
+.pageTeam .details .details_txt.intro {
+     font-size: 16px;
+}
+
+.pageProgramme .timeline {
+    padding-top: 32px;
+    position: relative;
+}
+.pageProgramme .timeline .xian {
+    width: 26px;
+    height: 600px;
+    background: url(../img/Programme_xian.png) top center no-repeat;
+    position: absolute;
+    left: 50%;
+    margin-left: -13px;
+}
+.pageProgramme .timeline .timeline_box {
+    width: calc((100% - 26px) / 2);
+    display: flex;
+    align-items: center;
+}
+.pageProgramme .timeline .timeline_box:nth-child(even) {
+    text-align: right;
+    float: left;
+    justify-content: flex-end;
+}
+.pageProgramme .timeline .timeline_box:nth-child(even):after {
+    content: url(../img/Programme_heng.png);
+    margin: 0 20px;
+}
+.pageProgramme .timeline .timeline_box:nth-child(odd) {
+    text-align: left;
+    float: right;
+}
+.pageProgramme .timeline .timeline_box:nth-child(odd):before {
+    content: url(../img/Programme_heng.png);
+    margin: 0 20px;
+}
+.pageProgramme .timeline .mt40 {
+    margin-top: 30px;
+}
+
+.pageProgramme .timeline .timeline_time {
+    line-height: 24px;
+    font-size: 14px;
+    color: #fff;
+    margin-bottom: 3px;
+}
+.pageProgramme .timeline .timeline_content {
+    font-size: 14px;
+    color: #e5e5e5;
+    line-height: 24px;
+}
+
+.pageFollowUs .btn {
+    width: 160px;
+    height: 42px;
+    background: url(../img/FollowUs_btn.png) center center no-repeat;
+    background-size: 100% 100%;
+    margin: 60px auto 120px auto;
+    display: block;
+    cursor: pointer;
+}
+.pageFollowUs .download {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto
+}
+.pageFollowUs .download_box {
+    margin: 0 52px;
+}
+.pageFollowUs .download_box .box_img {
+    width: 130px;
+    height: 130px;
+    margin: 0 auto;
+    padding: 10px;
+    background-color: #ffffff;
+    border-radius: 6px;
+}
+.pageFollowUs .download_box .box_img img {
+    width: 100%;
+    height: 100%;
+}
+.pageFollowUs .download_box .box_txt {
+    line-height: 50px;
+    font-size: 18px;
+    color: #e5e5e5;
+}
+.pageFollowUs .download_box .box_btn {
+    width: 130px;
+    height: 42px;
+    background: url(../img/FollowUs_download.png) center center no-repeat;
+    background-size: 100% 100%;
+    cursor: pointer;
+}
+.pageFollowUs .partners {
+    margin: 60px auto 0 auto;
+}
+.pageFollowUs .partners .partners_text {
+    font-size: 30px;
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+    margin-bottom: 25px;
+    color: #ffffff;
+}
+.pageFollowUs .partners .partners_img {
+    width: 131px;
+    height: 35px;
+    background: url(../img/FollowUs_OKexchange.png) top center no-repeat;
+    background-size: 100% 100%;
+    margin: 0 auto;
+    display: inline-block;
+}
+
+.header-top {
+    width: 100%;
+    height: auto;
+}
+.header-top .logo {
+    height: 88px;
+    line-height: 88px;
+    float: left;
+}
+.header-top .logo .logo_img {
+    width: 60px;
+    height: 60px;
+    background: url(../img/logo_img.png) center center no-repeat;
+    background-size: 100% 100%;
+    margin: 0 15px 0 56px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.header-top .logo .logo_txt {
+    width: 188px;
+    height: 22px;
+    background: url(../img/logo_txt.png) center center no-repeat;
+    background-size: 100% 100%;
+    margin-right: 15px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.header-top .menu {
+    float: right;
+}
+.header-top .menu a {
+    width: 138px;
+    height: 88px;
+    line-height: 88px;
+    padding: 0;
+    font-size: 18px;
+    color: #e5e5e5;
+}
+.header-top .menu a:hover {
+    color: #BF8B42;
+}
+.header-top .menu a:first-child:after {
+    content: none;
+}
+
+.quick-link {
+    width: 100%;
+    top: auto;
+    bottom: 30px;
+    left: 48px;
+}
+.quick-link a {
+    background: transparent;
+    padding: 7px;
+}
+.quick-link li:hover .title {
+    margin-top: -4px;
+
+    font-size: 14px;
+}
+.quick-link a .icon {
+    display: inline-block;
+}
+.quick-link a .icon.weibo {
+    width: 29px;
+    height: 23px;
+    background: url(../img/weibo_no.png) center center no-repeat;
+}
+.quick-link a:hover .icon.weibo {
+    background: url(../img/weibo_yes.png) center center no-repeat;
+}
+.quick-link a .icon.weixin {
+    width: 24px;
+    height: 22px;
+    background: url(../img/weixin_no.png) center center no-repeat;
+}
+.quick-link a:hover .icon.weixin {
+    background: url(../img/weixin_yes.png) center center no-repeat;
+}
+.quick-link a .icon.email {
+    width: 22px;
+    height: 18px;
+    background: url(../img/email_no.png) center center no-repeat;
+}
+.quick-link a:hover .icon.email {
+    background: url(../img/email_yes.png) center center no-repeat;
+}
+.quick-link a .icon.inform {
+    width: 22px;
+    height: 18px;
+    background: url(../img/inform_no.png) center center no-repeat;
+}
+.quick-link a:hover .icon.inform {
+    background: url(../img/inform_yes.png) center center no-repeat;
+}
+
+.downloadHint {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 999;
+}
+#hintAndroid {
+    background: url(../img/judge_Android.png) top center no-repeat;
+    background-size: cover;
+}
+#hintIos {
+    background: url(../img/judge_Ios.png) top center no-repeat;
+    background-size: cover;
+}
